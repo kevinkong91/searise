@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F36DABA01F58B0A400AEA1D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36DAB9F1F58B0A400AEA1D5 /* AppDelegate.swift */; };
+		F36DABA21F58B0A400AEA1D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36DABA11F58B0A400AEA1D5 /* ViewController.swift */; };
+		F36DABA51F58B0A400AEA1D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F36DABA31F58B0A400AEA1D5 /* Main.storyboard */; };
+		F36DABA71F58B0A400AEA1D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F36DABA61F58B0A400AEA1D5 /* Assets.xcassets */; };
+		F36DABAA1F58B0A400AEA1D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F36DABA81F58B0A400AEA1D5 /* LaunchScreen.storyboard */; };
+		F36DABB51F58B0A400AEA1D5 /* SeaRiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36DABB41F58B0A400AEA1D5 /* SeaRiseTests.swift */; };
+		F36DABC01F58B0A400AEA1D5 /* SeaRiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36DABBF1F58B0A400AEA1D5 /* SeaRiseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F36DABB11F58B0A400AEA1D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F36DAB941F58B0A400AEA1D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F36DAB9B1F58B0A400AEA1D5;
+			remoteInfo = SeaRise;
+		};
+		F36DABBC1F58B0A400AEA1D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F36DAB941F58B0A400AEA1D5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F36DAB9B1F58B0A400AEA1D5;
+			remoteInfo = SeaRise;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F36DAB9C1F58B0A400AEA1D5 /* SeaRise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeaRise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36DAB9F1F58B0A400AEA1D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F36DABA11F58B0A400AEA1D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F36DABA41F58B0A400AEA1D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F36DABA61F58B0A400AEA1D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F36DABA91F58B0A400AEA1D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F36DABAB1F58B0A400AEA1D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F36DABB01F58B0A400AEA1D5 /* SeaRiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeaRiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36DABB41F58B0A400AEA1D5 /* SeaRiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaRiseTests.swift; sourceTree = "<group>"; };
+		F36DABB61F58B0A400AEA1D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F36DABBB1F58B0A400AEA1D5 /* SeaRiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeaRiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F36DABBF1F58B0A400AEA1D5 /* SeaRiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaRiseUITests.swift; sourceTree = "<group>"; };
+		F36DABC11F58B0A400AEA1D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F36DAB991F58B0A400AEA1D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36DABAD1F58B0A400AEA1D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36DABB81F58B0A400AEA1D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F36DAB931F58B0A400AEA1D5 = {
+			isa = PBXGroup;
+			children = (
+				F36DAB9E1F58B0A400AEA1D5 /* SeaRise */,
+				F36DABB31F58B0A400AEA1D5 /* SeaRiseTests */,
+				F36DABBE1F58B0A400AEA1D5 /* SeaRiseUITests */,
+				F36DAB9D1F58B0A400AEA1D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F36DAB9D1F58B0A400AEA1D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F36DAB9C1F58B0A400AEA1D5 /* SeaRise.app */,
+				F36DABB01F58B0A400AEA1D5 /* SeaRiseTests.xctest */,
+				F36DABBB1F58B0A400AEA1D5 /* SeaRiseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F36DAB9E1F58B0A400AEA1D5 /* SeaRise */ = {
+			isa = PBXGroup;
+			children = (
+				F36DAB9F1F58B0A400AEA1D5 /* AppDelegate.swift */,
+				F36DABA11F58B0A400AEA1D5 /* ViewController.swift */,
+				F36DABA31F58B0A400AEA1D5 /* Main.storyboard */,
+				F36DABA61F58B0A400AEA1D5 /* Assets.xcassets */,
+				F36DABA81F58B0A400AEA1D5 /* LaunchScreen.storyboard */,
+				F36DABAB1F58B0A400AEA1D5 /* Info.plist */,
+			);
+			path = SeaRise;
+			sourceTree = "<group>";
+		};
+		F36DABB31F58B0A400AEA1D5 /* SeaRiseTests */ = {
+			isa = PBXGroup;
+			children = (
+				F36DABB41F58B0A400AEA1D5 /* SeaRiseTests.swift */,
+				F36DABB61F58B0A400AEA1D5 /* Info.plist */,
+			);
+			path = SeaRiseTests;
+			sourceTree = "<group>";
+		};
+		F36DABBE1F58B0A400AEA1D5 /* SeaRiseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F36DABBF1F58B0A400AEA1D5 /* SeaRiseUITests.swift */,
+				F36DABC11F58B0A400AEA1D5 /* Info.plist */,
+			);
+			path = SeaRiseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F36DAB9B1F58B0A400AEA1D5 /* SeaRise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36DABC41F58B0A400AEA1D5 /* Build configuration list for PBXNativeTarget "SeaRise" */;
+			buildPhases = (
+				F36DAB981F58B0A400AEA1D5 /* Sources */,
+				F36DAB991F58B0A400AEA1D5 /* Frameworks */,
+				F36DAB9A1F58B0A400AEA1D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeaRise;
+			productName = SeaRise;
+			productReference = F36DAB9C1F58B0A400AEA1D5 /* SeaRise.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F36DABAF1F58B0A400AEA1D5 /* SeaRiseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36DABC71F58B0A400AEA1D5 /* Build configuration list for PBXNativeTarget "SeaRiseTests" */;
+			buildPhases = (
+				F36DABAC1F58B0A400AEA1D5 /* Sources */,
+				F36DABAD1F58B0A400AEA1D5 /* Frameworks */,
+				F36DABAE1F58B0A400AEA1D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F36DABB21F58B0A400AEA1D5 /* PBXTargetDependency */,
+			);
+			name = SeaRiseTests;
+			productName = SeaRiseTests;
+			productReference = F36DABB01F58B0A400AEA1D5 /* SeaRiseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F36DABBA1F58B0A400AEA1D5 /* SeaRiseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F36DABCA1F58B0A400AEA1D5 /* Build configuration list for PBXNativeTarget "SeaRiseUITests" */;
+			buildPhases = (
+				F36DABB71F58B0A400AEA1D5 /* Sources */,
+				F36DABB81F58B0A400AEA1D5 /* Frameworks */,
+				F36DABB91F58B0A400AEA1D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F36DABBD1F58B0A400AEA1D5 /* PBXTargetDependency */,
+			);
+			name = SeaRiseUITests;
+			productName = SeaRiseUITests;
+			productReference = F36DABBB1F58B0A400AEA1D5 /* SeaRiseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F36DAB941F58B0A400AEA1D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Kevin Kong";
+				TargetAttributes = {
+					F36DAB9B1F58B0A400AEA1D5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 67LF9BW4P4;
+						ProvisioningStyle = Automatic;
+					};
+					F36DABAF1F58B0A400AEA1D5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 67LF9BW4P4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F36DAB9B1F58B0A400AEA1D5;
+					};
+					F36DABBA1F58B0A400AEA1D5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 67LF9BW4P4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F36DAB9B1F58B0A400AEA1D5;
+					};
+				};
+			};
+			buildConfigurationList = F36DAB971F58B0A400AEA1D5 /* Build configuration list for PBXProject "SeaRise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F36DAB931F58B0A400AEA1D5;
+			productRefGroup = F36DAB9D1F58B0A400AEA1D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F36DAB9B1F58B0A400AEA1D5 /* SeaRise */,
+				F36DABAF1F58B0A400AEA1D5 /* SeaRiseTests */,
+				F36DABBA1F58B0A400AEA1D5 /* SeaRiseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F36DAB9A1F58B0A400AEA1D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36DABAA1F58B0A400AEA1D5 /* LaunchScreen.storyboard in Resources */,
+				F36DABA71F58B0A400AEA1D5 /* Assets.xcassets in Resources */,
+				F36DABA51F58B0A400AEA1D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36DABAE1F58B0A400AEA1D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36DABB91F58B0A400AEA1D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F36DAB981F58B0A400AEA1D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36DABA21F58B0A400AEA1D5 /* ViewController.swift in Sources */,
+				F36DABA01F58B0A400AEA1D5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36DABAC1F58B0A400AEA1D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36DABB51F58B0A400AEA1D5 /* SeaRiseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F36DABB71F58B0A400AEA1D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F36DABC01F58B0A400AEA1D5 /* SeaRiseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F36DABB21F58B0A400AEA1D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F36DAB9B1F58B0A400AEA1D5 /* SeaRise */;
+			targetProxy = F36DABB11F58B0A400AEA1D5 /* PBXContainerItemProxy */;
+		};
+		F36DABBD1F58B0A400AEA1D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F36DAB9B1F58B0A400AEA1D5 /* SeaRise */;
+			targetProxy = F36DABBC1F58B0A400AEA1D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F36DABA31F58B0A400AEA1D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F36DABA41F58B0A400AEA1D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F36DABA81F58B0A400AEA1D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F36DABA91F58B0A400AEA1D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F36DABC21F58B0A400AEA1D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F36DABC31F58B0A400AEA1D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F36DABC51F58B0A400AEA1D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 67LF9BW4P4;
+				INFOPLIST_FILE = SeaRise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kevinkong.SeaRise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F36DABC61F58B0A400AEA1D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 67LF9BW4P4;
+				INFOPLIST_FILE = SeaRise/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kevinkong.SeaRise;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F36DABC81F58B0A400AEA1D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 67LF9BW4P4;
+				INFOPLIST_FILE = SeaRiseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kevinkong.SeaRiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeaRise.app/SeaRise";
+			};
+			name = Debug;
+		};
+		F36DABC91F58B0A400AEA1D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 67LF9BW4P4;
+				INFOPLIST_FILE = SeaRiseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kevinkong.SeaRiseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeaRise.app/SeaRise";
+			};
+			name = Release;
+		};
+		F36DABCB1F58B0A400AEA1D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 67LF9BW4P4;
+				INFOPLIST_FILE = SeaRiseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kevinkong.SeaRiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SeaRise;
+			};
+			name = Debug;
+		};
+		F36DABCC1F58B0A400AEA1D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 67LF9BW4P4;
+				INFOPLIST_FILE = SeaRiseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kevinkong.SeaRiseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SeaRise;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F36DAB971F58B0A400AEA1D5 /* Build configuration list for PBXProject "SeaRise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36DABC21F58B0A400AEA1D5 /* Debug */,
+				F36DABC31F58B0A400AEA1D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F36DABC41F58B0A400AEA1D5 /* Build configuration list for PBXNativeTarget "SeaRise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36DABC51F58B0A400AEA1D5 /* Debug */,
+				F36DABC61F58B0A400AEA1D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F36DABC71F58B0A400AEA1D5 /* Build configuration list for PBXNativeTarget "SeaRiseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36DABC81F58B0A400AEA1D5 /* Debug */,
+				F36DABC91F58B0A400AEA1D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F36DABCA1F58B0A400AEA1D5 /* Build configuration list for PBXNativeTarget "SeaRiseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F36DABCB1F58B0A400AEA1D5 /* Debug */,
+				F36DABCC1F58B0A400AEA1D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F36DAB941F58B0A400AEA1D5 /* Project object */;
+}
