@@ -3,68 +3,70 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F36DABA01F58B0A400AEA1D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36DAB9F1F58B0A400AEA1D5 /* AppDelegate.swift */; };
-		F36DABA21F58B0A400AEA1D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36DABA11F58B0A400AEA1D5 /* ViewController.swift */; };
-		F36DABA51F58B0A400AEA1D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F36DABA31F58B0A400AEA1D5 /* Main.storyboard */; };
-		F36DABA71F58B0A400AEA1D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F36DABA61F58B0A400AEA1D5 /* Assets.xcassets */; };
-		F36DABAA1F58B0A400AEA1D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F36DABA81F58B0A400AEA1D5 /* LaunchScreen.storyboard */; };
-		F36DABB51F58B0A400AEA1D5 /* SeaRiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36DABB41F58B0A400AEA1D5 /* SeaRiseTests.swift */; };
-		F36DABC01F58B0A400AEA1D5 /* SeaRiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36DABBF1F58B0A400AEA1D5 /* SeaRiseUITests.swift */; };
+		F39795DB1FA7B43B00472DB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39795DA1FA7B43B00472DB3 /* AppDelegate.swift */; };
+		F39795DD1FA7B43B00472DB3 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = F39795DC1FA7B43B00472DB3 /* art.scnassets */; };
+		F39795DF1FA7B43B00472DB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39795DE1FA7B43B00472DB3 /* ViewController.swift */; };
+		F39795E21FA7B43B00472DB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39795E01FA7B43B00472DB3 /* Main.storyboard */; };
+		F39795E41FA7B43B00472DB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39795E31FA7B43B00472DB3 /* Assets.xcassets */; };
+		F39795E71FA7B43B00472DB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39795E51FA7B43B00472DB3 /* LaunchScreen.storyboard */; };
+		F39795F21FA7B43B00472DB3 /* SeaRiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39795F11FA7B43B00472DB3 /* SeaRiseTests.swift */; };
+		F39795FD1FA7B43B00472DB3 /* SeaRiseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F39795FC1FA7B43B00472DB3 /* SeaRiseUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F36DABB11F58B0A400AEA1D5 /* PBXContainerItemProxy */ = {
+		F39795EE1FA7B43B00472DB3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F36DAB941F58B0A400AEA1D5 /* Project object */;
+			containerPortal = F39795CF1FA7B43B00472DB3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F36DAB9B1F58B0A400AEA1D5;
+			remoteGlobalIDString = F39795D61FA7B43B00472DB3;
 			remoteInfo = SeaRise;
 		};
-		F36DABBC1F58B0A400AEA1D5 /* PBXContainerItemProxy */ = {
+		F39795F91FA7B43B00472DB3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F36DAB941F58B0A400AEA1D5 /* Project object */;
+			containerPortal = F39795CF1FA7B43B00472DB3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F36DAB9B1F58B0A400AEA1D5;
+			remoteGlobalIDString = F39795D61FA7B43B00472DB3;
 			remoteInfo = SeaRise;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F36DAB9C1F58B0A400AEA1D5 /* SeaRise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeaRise.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F36DAB9F1F58B0A400AEA1D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F36DABA11F58B0A400AEA1D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F36DABA41F58B0A400AEA1D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F36DABA61F58B0A400AEA1D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F36DABA91F58B0A400AEA1D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F36DABAB1F58B0A400AEA1D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F36DABB01F58B0A400AEA1D5 /* SeaRiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeaRiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F36DABB41F58B0A400AEA1D5 /* SeaRiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaRiseTests.swift; sourceTree = "<group>"; };
-		F36DABB61F58B0A400AEA1D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F36DABBB1F58B0A400AEA1D5 /* SeaRiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeaRiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F36DABBF1F58B0A400AEA1D5 /* SeaRiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaRiseUITests.swift; sourceTree = "<group>"; };
-		F36DABC11F58B0A400AEA1D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39795D71FA7B43B00472DB3 /* SeaRise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeaRise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39795DA1FA7B43B00472DB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F39795DC1FA7B43B00472DB3 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		F39795DE1FA7B43B00472DB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F39795E11FA7B43B00472DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F39795E31FA7B43B00472DB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F39795E61FA7B43B00472DB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F39795E81FA7B43B00472DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39795ED1FA7B43B00472DB3 /* SeaRiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeaRiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39795F11FA7B43B00472DB3 /* SeaRiseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaRiseTests.swift; sourceTree = "<group>"; };
+		F39795F31FA7B43B00472DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F39795F81FA7B43B00472DB3 /* SeaRiseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeaRiseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39795FC1FA7B43B00472DB3 /* SeaRiseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeaRiseUITests.swift; sourceTree = "<group>"; };
+		F39795FE1FA7B43B00472DB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F36DAB991F58B0A400AEA1D5 /* Frameworks */ = {
+		F39795D41FA7B43B00472DB3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F36DABAD1F58B0A400AEA1D5 /* Frameworks */ = {
+		F39795EA1FA7B43B00472DB3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F36DABB81F58B0A400AEA1D5 /* Frameworks */ = {
+		F39795F51FA7B43B00472DB3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,53 +76,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F36DAB931F58B0A400AEA1D5 = {
+		F39795CE1FA7B43B00472DB3 = {
 			isa = PBXGroup;
 			children = (
-				F36DAB9E1F58B0A400AEA1D5 /* SeaRise */,
-				F36DABB31F58B0A400AEA1D5 /* SeaRiseTests */,
-				F36DABBE1F58B0A400AEA1D5 /* SeaRiseUITests */,
-				F36DAB9D1F58B0A400AEA1D5 /* Products */,
+				F39795D91FA7B43B00472DB3 /* SeaRise */,
+				F39795F01FA7B43B00472DB3 /* SeaRiseTests */,
+				F39795FB1FA7B43B00472DB3 /* SeaRiseUITests */,
+				F39795D81FA7B43B00472DB3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F36DAB9D1F58B0A400AEA1D5 /* Products */ = {
+		F39795D81FA7B43B00472DB3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F36DAB9C1F58B0A400AEA1D5 /* SeaRise.app */,
-				F36DABB01F58B0A400AEA1D5 /* SeaRiseTests.xctest */,
-				F36DABBB1F58B0A400AEA1D5 /* SeaRiseUITests.xctest */,
+				F39795D71FA7B43B00472DB3 /* SeaRise.app */,
+				F39795ED1FA7B43B00472DB3 /* SeaRiseTests.xctest */,
+				F39795F81FA7B43B00472DB3 /* SeaRiseUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F36DAB9E1F58B0A400AEA1D5 /* SeaRise */ = {
+		F39795D91FA7B43B00472DB3 /* SeaRise */ = {
 			isa = PBXGroup;
 			children = (
-				F36DAB9F1F58B0A400AEA1D5 /* AppDelegate.swift */,
-				F36DABA11F58B0A400AEA1D5 /* ViewController.swift */,
-				F36DABA31F58B0A400AEA1D5 /* Main.storyboard */,
-				F36DABA61F58B0A400AEA1D5 /* Assets.xcassets */,
-				F36DABA81F58B0A400AEA1D5 /* LaunchScreen.storyboard */,
-				F36DABAB1F58B0A400AEA1D5 /* Info.plist */,
+				F39795DA1FA7B43B00472DB3 /* AppDelegate.swift */,
+				F39795DC1FA7B43B00472DB3 /* art.scnassets */,
+				F39795DE1FA7B43B00472DB3 /* ViewController.swift */,
+				F39795E01FA7B43B00472DB3 /* Main.storyboard */,
+				F39795E31FA7B43B00472DB3 /* Assets.xcassets */,
+				F39795E51FA7B43B00472DB3 /* LaunchScreen.storyboard */,
+				F39795E81FA7B43B00472DB3 /* Info.plist */,
 			);
 			path = SeaRise;
 			sourceTree = "<group>";
 		};
-		F36DABB31F58B0A400AEA1D5 /* SeaRiseTests */ = {
+		F39795F01FA7B43B00472DB3 /* SeaRiseTests */ = {
 			isa = PBXGroup;
 			children = (
-				F36DABB41F58B0A400AEA1D5 /* SeaRiseTests.swift */,
-				F36DABB61F58B0A400AEA1D5 /* Info.plist */,
+				F39795F11FA7B43B00472DB3 /* SeaRiseTests.swift */,
+				F39795F31FA7B43B00472DB3 /* Info.plist */,
 			);
 			path = SeaRiseTests;
 			sourceTree = "<group>";
 		};
-		F36DABBE1F58B0A400AEA1D5 /* SeaRiseUITests */ = {
+		F39795FB1FA7B43B00472DB3 /* SeaRiseUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F36DABBF1F58B0A400AEA1D5 /* SeaRiseUITests.swift */,
-				F36DABC11F58B0A400AEA1D5 /* Info.plist */,
+				F39795FC1FA7B43B00472DB3 /* SeaRiseUITests.swift */,
+				F39795FE1FA7B43B00472DB3 /* Info.plist */,
 			);
 			path = SeaRiseUITests;
 			sourceTree = "<group>";
@@ -128,13 +131,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F36DAB9B1F58B0A400AEA1D5 /* SeaRise */ = {
+		F39795D61FA7B43B00472DB3 /* SeaRise */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F36DABC41F58B0A400AEA1D5 /* Build configuration list for PBXNativeTarget "SeaRise" */;
+			buildConfigurationList = F39796011FA7B43B00472DB3 /* Build configuration list for PBXNativeTarget "SeaRise" */;
 			buildPhases = (
-				F36DAB981F58B0A400AEA1D5 /* Sources */,
-				F36DAB991F58B0A400AEA1D5 /* Frameworks */,
-				F36DAB9A1F58B0A400AEA1D5 /* Resources */,
+				F39795D31FA7B43B00472DB3 /* Sources */,
+				F39795D41FA7B43B00472DB3 /* Frameworks */,
+				F39795D51FA7B43B00472DB3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -142,113 +145,111 @@
 			);
 			name = SeaRise;
 			productName = SeaRise;
-			productReference = F36DAB9C1F58B0A400AEA1D5 /* SeaRise.app */;
+			productReference = F39795D71FA7B43B00472DB3 /* SeaRise.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F36DABAF1F58B0A400AEA1D5 /* SeaRiseTests */ = {
+		F39795EC1FA7B43B00472DB3 /* SeaRiseTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F36DABC71F58B0A400AEA1D5 /* Build configuration list for PBXNativeTarget "SeaRiseTests" */;
+			buildConfigurationList = F39796041FA7B43B00472DB3 /* Build configuration list for PBXNativeTarget "SeaRiseTests" */;
 			buildPhases = (
-				F36DABAC1F58B0A400AEA1D5 /* Sources */,
-				F36DABAD1F58B0A400AEA1D5 /* Frameworks */,
-				F36DABAE1F58B0A400AEA1D5 /* Resources */,
+				F39795E91FA7B43B00472DB3 /* Sources */,
+				F39795EA1FA7B43B00472DB3 /* Frameworks */,
+				F39795EB1FA7B43B00472DB3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F36DABB21F58B0A400AEA1D5 /* PBXTargetDependency */,
+				F39795EF1FA7B43B00472DB3 /* PBXTargetDependency */,
 			);
 			name = SeaRiseTests;
 			productName = SeaRiseTests;
-			productReference = F36DABB01F58B0A400AEA1D5 /* SeaRiseTests.xctest */;
+			productReference = F39795ED1FA7B43B00472DB3 /* SeaRiseTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F36DABBA1F58B0A400AEA1D5 /* SeaRiseUITests */ = {
+		F39795F71FA7B43B00472DB3 /* SeaRiseUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F36DABCA1F58B0A400AEA1D5 /* Build configuration list for PBXNativeTarget "SeaRiseUITests" */;
+			buildConfigurationList = F39796071FA7B43B00472DB3 /* Build configuration list for PBXNativeTarget "SeaRiseUITests" */;
 			buildPhases = (
-				F36DABB71F58B0A400AEA1D5 /* Sources */,
-				F36DABB81F58B0A400AEA1D5 /* Frameworks */,
-				F36DABB91F58B0A400AEA1D5 /* Resources */,
+				F39795F41FA7B43B00472DB3 /* Sources */,
+				F39795F51FA7B43B00472DB3 /* Frameworks */,
+				F39795F61FA7B43B00472DB3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F36DABBD1F58B0A400AEA1D5 /* PBXTargetDependency */,
+				F39795FA1FA7B43B00472DB3 /* PBXTargetDependency */,
 			);
 			name = SeaRiseUITests;
 			productName = SeaRiseUITests;
-			productReference = F36DABBB1F58B0A400AEA1D5 /* SeaRiseUITests.xctest */;
+			productReference = F39795F81FA7B43B00472DB3 /* SeaRiseUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F36DAB941F58B0A400AEA1D5 /* Project object */ = {
+		F39795CF1FA7B43B00472DB3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Kevin Kong";
 				TargetAttributes = {
-					F36DAB9B1F58B0A400AEA1D5 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 67LF9BW4P4;
+					F39795D61FA7B43B00472DB3 = {
+						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
 					};
-					F36DABAF1F58B0A400AEA1D5 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 67LF9BW4P4;
+					F39795EC1FA7B43B00472DB3 = {
+						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
-						TestTargetID = F36DAB9B1F58B0A400AEA1D5;
+						TestTargetID = F39795D61FA7B43B00472DB3;
 					};
-					F36DABBA1F58B0A400AEA1D5 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 67LF9BW4P4;
+					F39795F71FA7B43B00472DB3 = {
+						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
-						TestTargetID = F36DAB9B1F58B0A400AEA1D5;
+						TestTargetID = F39795D61FA7B43B00472DB3;
 					};
 				};
 			};
-			buildConfigurationList = F36DAB971F58B0A400AEA1D5 /* Build configuration list for PBXProject "SeaRise" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			buildConfigurationList = F39795D21FA7B43B00472DB3 /* Build configuration list for PBXProject "SeaRise" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = F36DAB931F58B0A400AEA1D5;
-			productRefGroup = F36DAB9D1F58B0A400AEA1D5 /* Products */;
+			mainGroup = F39795CE1FA7B43B00472DB3;
+			productRefGroup = F39795D81FA7B43B00472DB3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F36DAB9B1F58B0A400AEA1D5 /* SeaRise */,
-				F36DABAF1F58B0A400AEA1D5 /* SeaRiseTests */,
-				F36DABBA1F58B0A400AEA1D5 /* SeaRiseUITests */,
+				F39795D61FA7B43B00472DB3 /* SeaRise */,
+				F39795EC1FA7B43B00472DB3 /* SeaRiseTests */,
+				F39795F71FA7B43B00472DB3 /* SeaRiseUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F36DAB9A1F58B0A400AEA1D5 /* Resources */ = {
+		F39795D51FA7B43B00472DB3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F36DABAA1F58B0A400AEA1D5 /* LaunchScreen.storyboard in Resources */,
-				F36DABA71F58B0A400AEA1D5 /* Assets.xcassets in Resources */,
-				F36DABA51F58B0A400AEA1D5 /* Main.storyboard in Resources */,
+				F39795DD1FA7B43B00472DB3 /* art.scnassets in Resources */,
+				F39795E71FA7B43B00472DB3 /* LaunchScreen.storyboard in Resources */,
+				F39795E41FA7B43B00472DB3 /* Assets.xcassets in Resources */,
+				F39795E21FA7B43B00472DB3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F36DABAE1F58B0A400AEA1D5 /* Resources */ = {
+		F39795EB1FA7B43B00472DB3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F36DABB91F58B0A400AEA1D5 /* Resources */ = {
+		F39795F61FA7B43B00472DB3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,59 +259,59 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F36DAB981F58B0A400AEA1D5 /* Sources */ = {
+		F39795D31FA7B43B00472DB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F36DABA21F58B0A400AEA1D5 /* ViewController.swift in Sources */,
-				F36DABA01F58B0A400AEA1D5 /* AppDelegate.swift in Sources */,
+				F39795DF1FA7B43B00472DB3 /* ViewController.swift in Sources */,
+				F39795DB1FA7B43B00472DB3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F36DABAC1F58B0A400AEA1D5 /* Sources */ = {
+		F39795E91FA7B43B00472DB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F36DABB51F58B0A400AEA1D5 /* SeaRiseTests.swift in Sources */,
+				F39795F21FA7B43B00472DB3 /* SeaRiseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F36DABB71F58B0A400AEA1D5 /* Sources */ = {
+		F39795F41FA7B43B00472DB3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F36DABC01F58B0A400AEA1D5 /* SeaRiseUITests.swift in Sources */,
+				F39795FD1FA7B43B00472DB3 /* SeaRiseUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F36DABB21F58B0A400AEA1D5 /* PBXTargetDependency */ = {
+		F39795EF1FA7B43B00472DB3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F36DAB9B1F58B0A400AEA1D5 /* SeaRise */;
-			targetProxy = F36DABB11F58B0A400AEA1D5 /* PBXContainerItemProxy */;
+			target = F39795D61FA7B43B00472DB3 /* SeaRise */;
+			targetProxy = F39795EE1FA7B43B00472DB3 /* PBXContainerItemProxy */;
 		};
-		F36DABBD1F58B0A400AEA1D5 /* PBXTargetDependency */ = {
+		F39795FA1FA7B43B00472DB3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F36DAB9B1F58B0A400AEA1D5 /* SeaRise */;
-			targetProxy = F36DABBC1F58B0A400AEA1D5 /* PBXContainerItemProxy */;
+			target = F39795D61FA7B43B00472DB3 /* SeaRise */;
+			targetProxy = F39795F91FA7B43B00472DB3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F36DABA31F58B0A400AEA1D5 /* Main.storyboard */ = {
+		F39795E01FA7B43B00472DB3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F36DABA41F58B0A400AEA1D5 /* Base */,
+				F39795E11FA7B43B00472DB3 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		F36DABA81F58B0A400AEA1D5 /* LaunchScreen.storyboard */ = {
+		F39795E51FA7B43B00472DB3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				F36DABA91F58B0A400AEA1D5 /* Base */,
+				F39795E61FA7B43B00472DB3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -318,17 +319,19 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		F36DABC21F58B0A400AEA1D5 /* Debug */ = {
+		F39795FF1FA7B43B00472DB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -336,16 +339,21 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -359,7 +367,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -368,17 +376,19 @@
 			};
 			name = Debug;
 		};
-		F36DABC31F58B0A400AEA1D5 /* Release */ = {
+		F39796001FA7B43B00472DB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -386,16 +396,21 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -403,7 +418,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -411,86 +426,98 @@
 			};
 			name = Release;
 		};
-		F36DABC51F58B0A400AEA1D5 /* Debug */ = {
+		F39796021FA7B43B00472DB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67LF9BW4P4;
 				INFOPLIST_FILE = SeaRise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kevinkong.SeaRise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		F36DABC61F58B0A400AEA1D5 /* Release */ = {
+		F39796031FA7B43B00472DB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67LF9BW4P4;
 				INFOPLIST_FILE = SeaRise/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kevinkong.SeaRise;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		F36DABC81F58B0A400AEA1D5 /* Debug */ = {
+		F39796051FA7B43B00472DB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67LF9BW4P4;
 				INFOPLIST_FILE = SeaRiseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kevinkong.SeaRiseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeaRise.app/SeaRise";
 			};
 			name = Debug;
 		};
-		F36DABC91F58B0A400AEA1D5 /* Release */ = {
+		F39796061FA7B43B00472DB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67LF9BW4P4;
 				INFOPLIST_FILE = SeaRiseTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kevinkong.SeaRiseTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeaRise.app/SeaRise";
 			};
 			name = Release;
 		};
-		F36DABCB1F58B0A400AEA1D5 /* Debug */ = {
+		F39796081FA7B43B00472DB3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67LF9BW4P4;
 				INFOPLIST_FILE = SeaRiseUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kevinkong.SeaRiseUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SeaRise;
 			};
 			name = Debug;
 		};
-		F36DABCC1F58B0A400AEA1D5 /* Release */ = {
+		F39796091FA7B43B00472DB3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 67LF9BW4P4;
 				INFOPLIST_FILE = SeaRiseUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = kevinkong.SeaRiseUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = SeaRise;
 			};
 			name = Release;
@@ -498,40 +525,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F36DAB971F58B0A400AEA1D5 /* Build configuration list for PBXProject "SeaRise" */ = {
+		F39795D21FA7B43B00472DB3 /* Build configuration list for PBXProject "SeaRise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F36DABC21F58B0A400AEA1D5 /* Debug */,
-				F36DABC31F58B0A400AEA1D5 /* Release */,
+				F39795FF1FA7B43B00472DB3 /* Debug */,
+				F39796001FA7B43B00472DB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F36DABC41F58B0A400AEA1D5 /* Build configuration list for PBXNativeTarget "SeaRise" */ = {
+		F39796011FA7B43B00472DB3 /* Build configuration list for PBXNativeTarget "SeaRise" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F36DABC51F58B0A400AEA1D5 /* Debug */,
-				F36DABC61F58B0A400AEA1D5 /* Release */,
+				F39796021FA7B43B00472DB3 /* Debug */,
+				F39796031FA7B43B00472DB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		F36DABC71F58B0A400AEA1D5 /* Build configuration list for PBXNativeTarget "SeaRiseTests" */ = {
+		F39796041FA7B43B00472DB3 /* Build configuration list for PBXNativeTarget "SeaRiseTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F36DABC81F58B0A400AEA1D5 /* Debug */,
-				F36DABC91F58B0A400AEA1D5 /* Release */,
+				F39796051FA7B43B00472DB3 /* Debug */,
+				F39796061FA7B43B00472DB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		F36DABCA1F58B0A400AEA1D5 /* Build configuration list for PBXNativeTarget "SeaRiseUITests" */ = {
+		F39796071FA7B43B00472DB3 /* Build configuration list for PBXNativeTarget "SeaRiseUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F36DABCB1F58B0A400AEA1D5 /* Debug */,
-				F36DABCC1F58B0A400AEA1D5 /* Release */,
+				F39796081FA7B43B00472DB3 /* Debug */,
+				F39796091FA7B43B00472DB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F36DAB941F58B0A400AEA1D5 /* Project object */;
+	rootObject = F39795CF1FA7B43B00472DB3 /* Project object */;
 }

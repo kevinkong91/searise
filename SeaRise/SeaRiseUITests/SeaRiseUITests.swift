@@ -2,7 +2,7 @@
 //  SeaRiseUITests.swift
 //  SeaRiseUITests
 //
-//  Created by Kevin Kong on 8/31/17.
+//  Created by Kevin Kong on 10/30/17.
 //  Copyright © 2017 Kevin Kong. All rights reserved.
 //
 
