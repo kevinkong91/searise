@@ -30,15 +30,14 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.scene = scene
         
         if let view = self.view as? ARSKView {
-            sceneView = view
             sceneView!.delegate = self
-            let scene = GameScene(size: view.bounds.size)
-            scene.scaleMode = .resizeFill
-            scene.anchorPoint = CGPoint(x: 0.5, y: 0.5)
-            view.presentScene(scene)
             view.showsFPS = true
             view.showsNodeCount = true
         }
+        
+//        addShapes()
+//        addBox()
+        addTapGestureToSceneView()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -46,6 +45,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         // Create a session configuration
         let configuration = ARWorldTrackingConfiguration()
+        configuration.planeDetection = .horizontal
 
         // Run the view's session
         sceneView.session.run(configuration)
@@ -58,21 +58,123 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.session.pause()
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Release any cached data, images, etc that aren't in use.
-    }
-
-    // MARK: - ARSCNViewDelegate
+    // ARKit components
     
-/*
-    // Override to create and configure nodes for anchors added to the view's session.
-    func renderer(_ renderer: SCNSceneRenderer, nodeFor anchor: ARAnchor) -> SCNNode? {
-        let node = SCNNode()
-     
-        return node
+    func addBox(x: Float = 0, y: Float = 0, z: Float = -0.2) {
+        let box = SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0)
+        
+        let imageMaterial = SCNMaterial()
+        let image = UIImage(named: "water-texture")
+        imageMaterial.diffuse.contents = image
+        box.materials = [
+            imageMaterial,
+            imageMaterial,
+            imageMaterial,
+            imageMaterial,
+            imageMaterial,
+            imageMaterial,
+        ]
+        
+        let boxNode = SCNNode(geometry: box)
+        boxNode.position = SCNVector3(x, y, z)
+        
+        sceneView.scene.rootNode.addChildNode(boxNode)
     }
-*/
+    
+//    func addShapes() {
+//        let box = SCNBox(width: 0.1, height: 0.1, length: 0.1, chamferRadius: 0)
+//        let pyramid = SCNPyramid(width: 0.1, height: 0.1, length: 0.1)
+//        let sphere = SCNSphere(radius: 0.4)
+//
+//        let boxNode = SCNNode()
+//        boxNode.geometry = box
+//        boxNode.position = SCNVector3(0, 0, -0.2)
+//
+//        let pyramidNode = SCNNode()
+//        pyramidNode.geometry = pyramid
+//        pyramidNode.position = SCNVector3(5, 5, 0.5)
+//
+//        let sphereNode = SCNNode()
+//        sphereNode.geometry = sphere
+//        sphereNode.position = SCNVector3(8, 8, -0.3)
+//
+//        let nodes = [
+//            boxNode,
+//            pyramidNode,
+//            sphereNode,
+//        ]
+//        nodes.forEach { (node) in
+//            sceneView.scene.rootNode.addChildNode(node)
+//        }
+//    }
+    
+    func addTapGestureToSceneView() {
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(ViewController.didTap(withGestureRecognizer:)))
+        sceneView.addGestureRecognizer(tapGestureRecognizer)
+    }
+    
+    @objc func didTap(withGestureRecognizer recognizer: UIGestureRecognizer) {
+        let tapLocation = recognizer.location(in: sceneView)
+        let hitTestResults = sceneView.hitTest(tapLocation)
+        guard let node = hitTestResults.first?.node else {
+            let hitTestResultsWithFeaturePoints = sceneView.hitTest(tapLocation, types: .featurePoint)
+            
+            if let hitTestResultWithFeaturePoints = hitTestResultsWithFeaturePoints.first {
+                let translation = hitTestResultWithFeaturePoints.worldTransform.translation
+                addBox(x: translation.x, y: translation.y, z: translation.z)
+            }
+            return
+        }
+        node.removeFromParentNode()
+    }
+    
+    func createPlaneNode(anchor: ARPlaneAnchor) -> SCNNode {
+        // Create a SceneKit plane to visualize the node using its position and extent.
+        // Create the geometry and its materials
+        let plane = SCNPlane(width: CGFloat(anchor.extent.x), height: CGFloat(anchor.extent.z))
+        
+        let waterImage = UIImage(named: "water-texture")
+        let waterMaterial = SCNMaterial()
+        waterMaterial.diffuse.contents = waterImage
+        waterMaterial.isDoubleSided = true
+        
+        plane.materials = [waterMaterial]
+        
+        // Create a node with the plane geometry we created
+        let planeNode = SCNNode(geometry: plane)
+        planeNode.position = SCNVector3Make(anchor.center.x, 0, anchor.center.z)
+        
+        // SCNPlanes are vertically oriented in their local coordinate space.
+        // Rotate it to match the horizontal orientation of the ARPlaneAnchor.
+        planeNode.transform = SCNMatrix4MakeRotation(-Float.pi / 2, 1, 0, 0)
+        
+        return planeNode
+    }
+    
+    // ARSCNViewDelegate
+    
+    func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
+        guard let planeAnchor = anchor as? ARPlaneAnchor else { return }
+        let planeNode = createPlaneNode(anchor: planeAnchor)
+        node.addChildNode(planeNode)
+    }
+    
+    func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for anchor: ARAnchor) {
+        return
+        guard let planeAnchor = anchor as? ARPlaneAnchor else { return }
+        node.enumerateChildNodes { (childNode, _) in
+            childNode.removeFromParentNode()
+        }
+        let planeNode = createPlaneNode(anchor: planeAnchor)
+        node.addChildNode(planeNode)
+    }
+    
+    func renderer(_ renderer: SCNSceneRenderer, didRemove node: SCNNode, for anchor: ARAnchor) {
+        guard anchor is ARPlaneAnchor else { return }
+        node.enumerateChildNodes { (childNode, _) in
+            childNode.removeFromParentNode()
+        }
+    }
     
     func session(_ session: ARSession, didFailWithError error: Error) {
         // Present an error message to the user
@@ -89,6 +191,12 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.session.run(session.configuration!,
                               options: [.resetTracking,
                                         .removeExistingAnchors])
+    }
+}
 
+extension float4x4 {
+    var translation: float3 {
+        let translation = self.columns.3
+        return float3(translation.x, translation.y, translation.z)
     }
 }
