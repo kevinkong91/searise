@@ -9,10 +9,14 @@
 import UIKit
 import SceneKit
 import ARKit
+import CoreLocation
 
 class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
+    
+    let locationManager = CLLocationManager()
+    var currentAltitude: CLLocationDistance = 0.0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,15 +33,15 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // Set the scene to the view
         sceneView.scene = scene
         
-        if let view = self.view as? ARSKView {
-            sceneView!.delegate = self
-            view.showsFPS = true
-            view.showsNodeCount = true
-        }
         
 //        addShapes()
 //        addBox()
         addTapGestureToSceneView()
+        
+        locationManager.delegate = self
+        locationManager.desiredAccuracy = kCLLocationAccuracyBest
+        locationManager.requestWhenInUseAuthorization()
+        locationManager.startUpdatingLocation()
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -141,14 +145,22 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         plane.materials = [waterMaterial]
         
         // Create a node with the plane geometry we created
+        print(currentAltitude)
         let planeNode = SCNNode(geometry: plane)
-        planeNode.position = SCNVector3Make(anchor.center.x, 0, anchor.center.z)
+        planeNode.position = SCNVector3Make(anchor.center.x, Float(-currentAltitude), anchor.center.z)
         
         // SCNPlanes are vertically oriented in their local coordinate space.
         // Rotate it to match the horizontal orientation of the ARPlaneAnchor.
         planeNode.transform = SCNMatrix4MakeRotation(-Float.pi / 2, 1, 0, 0)
         
         return planeNode
+    }
+    
+    @IBOutlet var slider: UISlider!
+    
+    @IBAction func sliderValueChanged(_ sender: Any) {
+        currentAltitude += Double(slider.value)
+        print(currentAltitude)
     }
     
     // ARSCNViewDelegate
@@ -160,7 +172,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
     }
     
     func renderer(_ renderer: SCNSceneRenderer, didUpdate node: SCNNode, for anchor: ARAnchor) {
-        return
         guard let planeAnchor = anchor as? ARPlaneAnchor else { return }
         node.enumerateChildNodes { (childNode, _) in
             childNode.removeFromParentNode()
@@ -191,6 +202,13 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         sceneView.session.run(session.configuration!,
                               options: [.resetTracking,
                                         .removeExistingAnchors])
+    }
+}
+
+extension ViewController: CLLocationManagerDelegate {
+    func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
+        guard let latestLocation = locations.last else { return }
+        currentAltitude = latestLocation.altitude
     }
 }
 
